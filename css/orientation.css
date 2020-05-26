@@ -1,0 +1,24 @@
+@media all and (orientation:portrait){
+    #fullscreen_element{
+        background-color: #000000;
+        padding: 5px;
+        margin-bottom: 3px;
+        max-width: 99%;
+        max-height: -webkit-calc(99vw - 55px - 20px);
+        max-height:    -moz-calc(99vw - 55px - 20px);
+        max-height:         calc(99vw - 55px - 20px);	  
+        height: auto;
+    }
+}
+@media all and (orientation:landscape){
+    #fullscreen_element{
+        background-color: #000000;
+        padding: 5px;
+        margin-bottom: 3px;
+        max-width: 99%;
+        max-height: -webkit-calc(99vh - 55px - 20px);
+        max-height:    -moz-calc(99vh - 55px - 20px);
+        max-height:         calc(99vh - 55px - 20px);	  
+        height: auto;
+    }
+}
